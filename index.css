@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* div.time{
+    display: inline-block;
+text-align: center;
+background-color: black;
+color: white;
+padding: 36px 109px;
+}
+div.time p{
+    
+} */
+body{
+    width: 100%;
+    background: url(./pexels-karolina-grabowska-5412335.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.containor{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2%;
+    background: linear-gradient(45deg, black, #b2323229);
+    box-shadow: 8px -6px 9px #122239c4, inset 5px -5px 10px #c6c6c6, inset -3px 3px 7px black;
+    box-sizing: border-box;
+}
+div#keybord{
+   width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'seven eight nine slesh'
+                         'four five six star'
+                         'one two three mines'
+                         'zero dot plus equal'
+                         'clear clear clear clear';
+}
+button{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: inset -2px 3px 9px white,
+     inset 6px -6px 13px black;
+    background-color: #ffffff33;
+    color: #dfdfdd;
+}
+button:active{
+    box-shadow: inset 4px -3px 17px black
+        , inset -4px 4px 7px black;
+}
+#screen{
+    width: 100%;
+    background: white;
+    height: 150px;
+    font-size: 145px;
+    overflow: hidden;
+    box-shadow: inset 1px 1px 5px black;
+    border-radius: 12px;
+    margin-bottom: 33px;
+    background: linear-gradient(45deg, black, #3383e430);
+    color: white;
+}
+
+#seven{
+ grid-area: seven;
+} 
+#eight
+{
+  grid-area: eight;
+} 
+#nine{
+grid-area: nine;
+} 
+#slesh{
+grid-area: slesh;
+}
+#four{
+grid-area: four;
+} 
+#five{
+grid-area: five;
+} 
+#six{
+grid-area: six;
+} 
+#star{
+grid-area: star;
+}
+#one{
+grid-area: one;
+} 
+#two{
+grid-area: two;
+} 
+#three{
+grid-area: three;
+} 
+#mines{
+grid-area: mines;
+} 
+#zero{
+grid-area: zero;
+} 
+#dot{
+grid-area: dot;
+} 
+#plus{
+grid-area: plus;
+} 
+#equal{
+grid-area: equal;
+}
+#clear{
+    grid-area: clear;
+}
